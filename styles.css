@@ -37,6 +37,14 @@ header .navigation a {
   text-decoration: none;
   font-size: 30px;
 }
+
+@media (max-width: 996px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
 h1 {
   font-size: 60px;
   font-weight: 500;
@@ -87,6 +95,10 @@ footer {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.gallery-item .second {
+  object-fit: cover;
+  object-position: left;
 }
 
 @media screen and (max-width: 996px) {
